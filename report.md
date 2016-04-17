@@ -15,6 +15,8 @@ The reports, codes and supporting documents are to be uploaded to Github at:
 
 Explain how you implement your `task1.py` here.
 
+Firstly, I will create gausslegendre() function in order to put the codes for the values of the weights and nodes in Gauss-Legendre quadrature and Gauss-Legendre quadrature formula. Due to the interval of Gauss-Legendre quadrature is from -1 to 1, I will put one more formula which is ((b-a)*N+b+a) * 0.5 to transform the interval of the definite integral from [0,1] to [-1,1] in gausslegendre() function.
+
 Explain how you get the weights and nodes used in the Gauss-Legendre quadrature.
 
 ---------------------------------------------------------
