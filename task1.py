@@ -9,7 +9,7 @@ def gausslegendre(f, a, b, n=20):
     
     N,w = np.polynomial.legendre.leggauss(n)
     z = ((b-a)*N+b+a) * 0.5  # Transform the lower and upper limits to -1 and 1  
-    ans = ((b-a)/2) * sum(w*f(z))
+    ans = ((b-a)/2) * sum(w*f(z)) # Gauss-Legendre quadrature formula
     
     return ans
 
