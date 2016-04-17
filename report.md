@@ -1,8 +1,8 @@
 UECM3033 Assignment #3 Report
 ========================================================
 
-- Prepared by: ** Put your name here**
-- Tutorial Group: T2/T3
+- Prepared by: Liew Kok Hoong
+- Tutorial Group: T3
 
 --------------------------------------------------------
 
@@ -10,7 +10,7 @@ UECM3033 Assignment #3 Report
 
 The reports, codes and supporting documents are to be uploaded to Github at: 
 
-[https://github.com/your_github_id/UECM3033_assign3](https://github.com/your_github_id/UECM3033_assign3)
+[https://github.com/1203222/UECM3033_assign3]
 
 
 Explain how you implement your `task1.py` here.
