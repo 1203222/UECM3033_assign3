@@ -6,8 +6,11 @@ import sympy as sy
 # DO NOT CHANGE THE NAME OF gausslegendre() function
 def gausslegendre(f, a, b, n=20):
     ans = 0
-    # Edit here to implement your code
-
+    
+    N,w = np.polynomial.legendre.leggauss(n)
+    z = ((b-a)*N+b+a) * 0.5  # Transform the lower and upper limits to -1 and 1  
+    ans = ((b-a)/2) * sum(w*f(z))
+    
     return ans
 
 if __name__ == "__main__":
