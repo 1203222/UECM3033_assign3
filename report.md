@@ -30,6 +30,8 @@ Explain how you implement your `task2.py` here, especially how to use `odeint`.
 
 Put your graphs here and explain.
 
+![grapg1.PNG](graph1.PNG)
+
 Is the system of ODE sensitive to initial condition? Explain.
 
 -----------------------------------
