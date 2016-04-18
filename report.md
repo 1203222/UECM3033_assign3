@@ -31,15 +31,27 @@ Firstly, I will create ode() function with inputs of y, t and constants a and b.
 
 To test the system of ODE sensitive on initial conditions, the initial condition of y0 is changed from 0.1 to 0.11. The system of ODEs is solved by using scipy.integrate.odeint and the solution is displayed by plotting the graphs of y0 and y1 against t and graph of y1 against y0.
 
+
+
 Put your graphs here and explain.
 
 ![graph1.PNG](graph1.PNG)
 
+The graph of y0 and y1 against t with initial conditions of y0 and y1 are 0.1 and 1.0. The graph shows that y0 is increasing and y1 is decreasing when t is increasing.
+
 ![graph2.PNG](graph2.PNG)
+
+The graph of y1 against y0 with initial conditions of y0 and y1 are 0.1 and 1.0. The graph shows that y1 is decreasing when y0 is increasing.
 
 ![graph3.PNG](graph3.PNG)
 
+The graph of y0 and y1 against t with initial conditions of y0 and y1 are 0.11 and 1.0. The graph shows that y0 is increasing and y1 is decreasing when t is increasing.
+
 ![graph4.PNG](graph4.PNG)
+
+The graph of y1 against y0 with initial conditions of y0 and y1 are 0.11 and 1.0. The graph shows that y1 is decreasing when y0 is increasing.
+
+
 
 Is the system of ODE sensitive to initial condition? Explain.
 
