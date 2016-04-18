@@ -55,6 +55,8 @@ The graph of y1 against y0 with initial conditions of y0 and y1 are 0.11 and 1.0
 
 Is the system of ODE sensitive to initial condition? Explain.
 
+The system of ODE is not sensitive to initial condition. Based on the 4 graphs aboved, there are no much difference between the graph of y0 and y1 against t with initial condition of y0 is 0.1 and 0.11. This situation holds for the graph of y1 against y0 with initial conditions of y0 is 0.1 and 0.11.
+
 -----------------------------------
 
-<sup>last modified: change your date here</sup>
+<sup>last modified: 18/4/2016</sup>
