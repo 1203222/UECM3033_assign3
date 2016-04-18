@@ -27,7 +27,9 @@ I apply numpy.polynomial.legendre.leggauss(n) with n is the number of sample poi
 
 Explain how you implement your `task2.py` here, especially how to use `odeint`.
 
-Firstly, I will create ode() function with inputs of y, t and constants a and b. After that, I will put differential equations to calculate the derivatives of y0 and y1. In the main Python code body of task2.py, the values of constants a and b are 1.0/year and 0.2/year. I will generate a solution with 50 evenly spaced samples from t = 0 to 5 years. Next, scipy.integrate.odeint is applied to solve the system of ODEs. The parameters of scipy.integrate.odeint are ode() function, initial condition of y0 and y1 which are 0.1 and 1.0, t = 0 to 5 years, and arguments of constants a and b. 
+Firstly, I will create ode() function with inputs of y, t and constants a and b. After that, I will put differential equations to calculate the derivatives of y0 and y1. In the main Python code body of task2.py, the values of constants a and b are 1.0/year and 0.2/year. I will generate a solution with 50 evenly spaced samples from t = 0 to 5 years. Next, scipy.integrate.odeint is applied to solve the system of ODEs. The parameters of scipy.integrate.odeint are ode() function, initial condition of y0 and y1 which are 0.1 and 1.0, t = 0 to 5 years, and arguments of constants a and b. The solution will be displayed by plotting the graphs of y0 and y1 against t and graph of y1 against y0.
+
+To test the system of ODE sensitive on initial conditions, the initial condition of y0 is changed from 0.1 to 0.11. The system of ODEs is solved by using scipy.integrate.odeint and the solution is displayed by plotting the graphs of y0 and y1 against t and graph of y1 against y0.
 
 Put your graphs here and explain.
 
