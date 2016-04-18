@@ -35,6 +35,12 @@ Put your graphs here and explain.
 
 ![grapg1.PNG](graph1.PNG)
 
+![grapg2.PNG](graph2.PNG)
+
+![grapg3.PNG](graph3.PNG)
+
+![grapg4.PNG](graph4.PNG)
+
 Is the system of ODE sensitive to initial condition? Explain.
 
 -----------------------------------
